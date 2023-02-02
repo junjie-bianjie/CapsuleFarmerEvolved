@@ -21,6 +21,7 @@ When extracted, open the `config.yaml` in a text editor (e.g. Notepad) and put y
 Now you are ready to start the CapsuleFarmerEvolved.exe
 
 You might experience that the computer wants to block the software when you start it, something like this. Then you need to press “More info” and then “Run anyway”
+
 ![image](https://user-images.githubusercontent.com/95635582/216311348-d30a1ee5-9ec1-4f2c-9f40-44edaa58ba02.png)
 ![image](https://user-images.githubusercontent.com/95635582/216311385-c68af69a-be12-4633-a30f-b94e35aa97ab.png)
 
