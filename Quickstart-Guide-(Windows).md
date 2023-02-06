@@ -13,7 +13,7 @@ After downloading the ZIP file from GitHub, you will need to extract it
 ## Step 3
 
 Configure the application. 
-You can do so easily via visiting the online version of the configuration file: https://leagueofporo.com/confighelper.html
+You can do so easily via visiting the online configuration file helper: https://leagueofporo.com/confighelper.html
 
 For more information about the configuration file, please visit the [Configuration](https://github.com/LeagueOfPoro/CapsuleFarmerEvolved/wiki/Configuration) wiki page.
 
