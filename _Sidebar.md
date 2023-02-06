@@ -2,7 +2,7 @@
 
 * [Home](Home)
 * Getting Started
-    * [Quickstart Guide (Windows)](Quickstart-Guide)
+    * [Quickstart Guide (Windows)](Quickstart-Guide-(Windows))
     * [App Configuration](Configuration)
     * Advanced Installation Guides
         * [Advanced - Windows](Advanced-Installation-for-Windows)
