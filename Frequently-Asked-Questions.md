@@ -1,8 +1,7 @@
 ## Important Links
 
-Latest available release: [CapsuleFarmerEvolved](https://github.com/LeagueOfPoro/CapsuleFarmerEvolved/releases/latest)
-
-Quickstart Guide: [Quickstart Guide (Windows)](Getting-Started/Quickstart-Guide)
+- Latest available release: https://github.com/LeagueOfPoro/CapsuleFarmerEvolved/releases/latest
+- [Quickstart Guide (Windows)](Quickstart-Guide-(Windows))
 
 ## FAQ
 
