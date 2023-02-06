@@ -1,0 +1,1 @@
+Need help? Join our Discord: https://discord.gg/ebm5MJNvHU and locate the [#capsule-farmer-help](https://discord.com/channels/493691955184926720/1071113875908464670) channel!
