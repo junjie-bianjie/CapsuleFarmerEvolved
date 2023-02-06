@@ -10,7 +10,7 @@
         * [Advanced - MacOS](Advanced-Installation-for-MacOS)
         * [Advanced - Android](Advanced-Installation-for-Android)
         * [Advanced - Docker](Advanced-Installation-for-Docker)
-* [FAQ](Frequently-Asked-Questions)
+* [Frequently Asked Questions](Frequently-Asked-Questions)
 * [Troubleshooting](Troubleshooting)
 * [Latest Release](https://github.com/LeagueOfPoro/CapsuleFarmerEvolved/releases/latest)
 * [@League of Poro](https://www.youtube.com/@LeagueOfPoro)
