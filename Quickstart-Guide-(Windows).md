@@ -21,7 +21,7 @@ For more information about the configuration file, please visit the [Configurati
 
 Now you are ready to start the **CapsuleFarmerEvolved.exe** file.
 
-If Windows blocks the file, as soon bellow, you will need to press “More info” and then “Run anyway”
+If Windows blocks the file, as shown bellow, you will need to press “More info” and then “Run anyway”
 
 ![image](https://user-images.githubusercontent.com/95635582/216311348-d30a1ee5-9ec1-4f2c-9f40-44edaa58ba02.png)
 ![image](https://user-images.githubusercontent.com/95635582/216311385-c68af69a-be12-4633-a30f-b94e35aa97ab.png)
