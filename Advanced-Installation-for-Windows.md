@@ -1,3 +1,58 @@
-Article under construction. Please check back later. 
+⚠️ If you are looking for a quickstart guide, please see [Quickstart guide](Quickstart-guide-(Windows)). 
+This guide is for advanced users who want to install CapsuleFarmerEvolved on Windows and compile it from source code.
 
-Consider contributing to the wiki by editing this page.
+## Prerequisites
+- Windows 10 or 11 (Windows 8 is reported to work but is not supported)
+- Python ≥ 3.10.1 (version 3.9 should work as well but is not officially supported) [MUST BE ON PATH!]
+- pipenv (`pip install pipenv`) [MUST BE ON PATH!]
+- pyinstaller (`pip install pyinstaller`) [optional, only if you want to compile the application yourself] [MUST BE ON PATH!]
+- git (optional, only if you want to run the application from source code) [MUST BE ON PATH!]
+- 7zip (optional, only if you want to compile the application from source code and zip the output files) [MUST BE ON PATH!]
+
+## Running from source code
+
+1. Download and extract the latest source code available from the [Releases tab](https://github.com/LeagueOfPoro/CapsuleFarmerEvolved/releases/latest) ('Source code (zip)' file) or via `git clone https://github.com/LeagueOfPoro/CapsuleFarmerEvolved.git`
+2. Generate the config files as required by the application - see [Configuration](Configuration) for details.
+3. Run `pipenv install` to install the required dependencies.
+4. Run `pipenv run python ./src/main.py` to start the application.
+
+### Troubleshooting
+
+
+#### `ModuleNotFoundError: ` errors
+Did you run `pipenv install`? If not, run it and try again. (Step 3)
+
+#### `pip not found` error
+Did you install pipenv? If not, install it and try again. (As shown in the Prerequisites section)
+
+#### `pipenv: command not found`
+Did you install pipenv? If not, install it and try again. (As shown in the Prerequisites section)
+If you have installed pipenv, make sure it is in your PATH. If it is not, add it to your PATH.
+(See [this](https://stackoverflow.com/questions/44272416/pipenv-command-not-found) StackOverflow answer for more details)
+
+
+## Compiling the application
+
+If the application as run from the source code is working for you, you can compile it into a single executable file using pyinstaller.
+
+1. Run `pipenv install` to install the required dependencies.
+2. If you have not already, generate the config files as required by the application - see [Configuration](Configuration) for details.
+3. Open a terminal in the root directory of the project (you should see `src` and `config` directories).
+4. Run the following command depending on your OS: 
+    - Windows: `setup/windows.bat` 
+5. The compiled executable will be in the `build` directory.
+
+## CLI
+```
+usage: CapsuleFarmerEvolved.exe [-h] [-c CONFIGPATH]
+
+Farm Esports Capsules by watching all matches on lolesports.com.
+
+options:
+  -h, --help            show this help message and exit
+  -c CONFIGPATH, --config CONFIGPATH
+                        Path to a custom config file
+```
+```bash
+capsulefarmerevolved.exe --config /path/to/config.yaml
+```
