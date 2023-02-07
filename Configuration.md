@@ -82,4 +82,4 @@ The following options are planned for future releases:
 | `soundOnDrop` | Whether to play a sound when a drop is found.* | `false` | No |
 | `soundOnFault` | Whether to play a sound when the program stops.* | `false` | No |
 
-* Sounds will only play if the `soundPath` option is set to a valid path to a sound file and the respective `notificationOnX` option is set to `true`.
+\* Sounds will only play if the `soundPath` option is set to a valid path to a sound file and the respective `notificationOnX` option is set to `true`.
