@@ -21,8 +21,7 @@ Refer to [this guide](https://www.architectryan.com/2018/03/17/add-to-the-path-o
 
 ### Troubleshooting
 
-
-#### `ModuleNotFoundError: ` errors
+#### `ModuleNotFoundError` errors
 Did you run `pipenv install`? If not, run it and try again. (Step 3)
 
 #### `pip not found` error
@@ -30,19 +29,21 @@ Did you install pipenv? If not, install it and try again. (As shown in the Prere
 
 #### `pipenv: command not found`
 Did you install pipenv? If not, install it and try again. (As shown in the Prerequisites section)
-If you have installed pipenv, make sure it is in your PATH. If it is not, add it to your PATH.
+
+Remember: If you have installed pipenv, make sure it is in your PATH. If it is not, add it to your PATH.
 (See [this](https://stackoverflow.com/questions/44272416/pipenv-command-not-found) StackOverflow answer for more details)
+You can also try `python -m pipenv <COMMAND>` instead, but this is not recommended.
 
 
 ## Compiling the application
 
-If the application as run from the source code is working for you, you can compile it into a single executable file using pyinstaller.
+If the application is running from the source code, you can also compile it into a single executable file using pyinstaller.
 
 1. Run `pipenv install` to install the required dependencies.
 2. If you have not already, generate the config files as required by the application - see [Configuration](Configuration) for details.
-3. Open a terminal in the root directory of the project (you should see `src` and `config` directories).
-4. Run `setup/windows.bat` 
-5. The compiled executable will be in the `build` directory.
+3. Open a terminal in the root directory of the project (you should see `src` and `config` directories if you type `dir`).
+4. Run `setup/windows.bat` (CMD/PowerShell compatible)
+5. The compiled executable will be in the `build` directory. You can quickly start it with `./build/CapsuleFarmerEvolved.exe`
 
 ## CLI
 ```
