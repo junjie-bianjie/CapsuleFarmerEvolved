@@ -67,17 +67,19 @@ The following options are available in the configuration file:
 
 The following options are planned for future releases:
 | Option | Description | Default | Is required? |
+| --- | --- | --- | --- |
 | `bestStreamsUrl` | URL to fetch the bestStreams file. | `""` | No |
 | `connectorOnDrop` | Whether to enable drops and notifications | `true` | No |
 | `connectorOnStart` | Send a webhook when the program starts | `false` | No |
 | `connectorOnFault` | Send a webhook when the program stops | `false` | No |
-| `soundPath` | Path to the sound file to play when a drop is found. Example: `"./sound.mp3"` | `""` | No |
-| `soundVolume` | Volume of the sound file. | `100` | No |
-| `soundOnDrop` | Whether to play a sound when a drop is found. | `false` | No |
-| `soundOnStart` | Whether to play a sound when the program starts. | `false` | No |
-| `soundOnFault` | Whether to play a sound when the program stops. | `false` | No |
-| `soundOn2FA` | Whether to play a sound when an account needs 2FA input. | `false` | No |
-| `toastOnDrop` | Whether to show a toast notification when a drop is found. | `false` | No |
-| `toastOnStart` | Whether to show a toast notification when the program starts. | `false` | No |
-| `toastOnFault` | Whether to show a toast notification when the program stops. | `false` | No |
-| `toastOn2FA` | Whether to show a toast notification when an account needs 2FA input. | `false` | No |
+| `notificationOnStart` | Whether to show a toast notification when the program starts and has logged into an account. | `false` | No |
+| `notificationOn2FA` | Whether to show a toast notification when an account needs 2FA input. | `false` | No |
+| `notificationOnDrop` | Whether to show a toast notification when a drop is found. | `false` | No |
+| `notificationOnFault` | Whether to show a toast notification when the program stops. | `false` | No |
+| `soundPath` | Path to the sound file to play.* | `""` | No |
+| `soundOnStart` | Whether to play a sound when the program starts and has logged into an account.* | `false` | No |
+| `soundOn2FA` | Whether to play a sound when an account needs 2FA input.* | `false` | No |
+| `soundOnDrop` | Whether to play a sound when a drop is found.* | `false` | No |
+| `soundOnFault` | Whether to play a sound when the program stops.* | `false` | No |
+
+* Sounds will only play if the `soundPath` option is set to a valid path to a sound file and the respective `notificationOnX` option is set to `true`.
