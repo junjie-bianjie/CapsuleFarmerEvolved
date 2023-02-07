@@ -3,11 +3,14 @@ This guide is for advanced users who want to install CapsuleFarmerEvolved on Win
 
 ## Prerequisites
 - Windows 10 or 11 (Windows 8 is reported to work but is not supported)
-- Python ≥ 3.10.1 (version 3.9 should work as well but is not officially supported) [MUST BE ON PATH!]
-- pipenv (`pip install pipenv`) [MUST BE ON PATH!]
-- pyinstaller (`pip install pyinstaller`) [optional, only if you want to compile the application yourself] [MUST BE ON PATH!]
-- git (optional, only if you want to run the application from source code) [MUST BE ON PATH!]
-- 7zip (optional, only if you want to compile the application from source code and zip the output files) [MUST BE ON PATH!]
+- Python ≥ 3.10.1 (version 3.9 should work as well but is not officially supported)
+- pipenv (`pip install pipenv`)
+- pyinstaller (`pip install pyinstaller`) [optional, only if you want to compile the application yourself]
+- git [optional, only if you want to run the application from source code]
+- 7zip [optional, only if you want to compile the application from source code and zip the output files]
+
+Please note that all of the above must be on your PATH. If they are not, add them to your PATH.
+Refer to [this guide](https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/) for more information.
 
 ## Running from source code
 
@@ -38,8 +41,7 @@ If the application as run from the source code is working for you, you can compi
 1. Run `pipenv install` to install the required dependencies.
 2. If you have not already, generate the config files as required by the application - see [Configuration](Configuration) for details.
 3. Open a terminal in the root directory of the project (you should see `src` and `config` directories).
-4. Run the following command depending on your OS: 
-    - Windows: `setup/windows.bat` 
+4. Run `setup/windows.bat` 
 5. The compiled executable will be in the `build` directory.
 
 ## CLI
