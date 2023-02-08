@@ -16,7 +16,7 @@ If asked, press `y` to confirm the installation.
 ## Installation
 
 1. Open Termux.
-2. Install the prerequisites (see above).
+2. Update the packages Termux has with `pkg update && pkg upgrade` and then install the prerequisites (see above).
 3. Clone the repository: `git clone https://github.com/LeagueOfPoro/CapsuleFarmerEvolved`
 4. Move to the cloned directory: `cd CapsuleFarmerEvolved`
 5. Install the Python virtual environment required: `pipenv install --python /data/data/com.termux/files/usr/bin/python`
