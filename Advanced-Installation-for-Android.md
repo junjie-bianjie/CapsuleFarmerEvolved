@@ -20,7 +20,7 @@ If asked, press `y` to confirm the installation.
 3. Clone the repository: `git clone https://github.com/LeagueOfPoro/CapsuleFarmerEvolved`
 4. Move to the cloned directory: `cd CapsuleFarmerEvolved`
 5. Install the Python virtual environment required: `pipenv install --python /data/data/com.termux/files/usr/bin/python`
-6. Edit the configuration as the [configuration](Configuration) page describes. Use `nano config.json` to edit the file.
+6. Edit the configuration as the [configuration](Configuration) page describes. Use `nano config/config.json` to edit the file.
 - Use arrow keys to move the cursor.
 - Edit the values as required.
 - When finished click `Ctrl + O` then enter to save.
