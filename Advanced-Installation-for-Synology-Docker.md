@@ -1,4 +1,5 @@
-Guide by @Silver#0008
+This guide is aimed to users that wish to run the CapsuleFarmerEvolved on an Synology Docker system. Please note that non-Windows users are not officially supported and may not receive support. For any issues that you may encounter, please open an issue on GitHub. If you are able to fix the issue yourself, please open a pull request instead!
+By @Silver#0008
 
 ## Prerequisites 
 Docker compatibility - 64 bit version of DSM
