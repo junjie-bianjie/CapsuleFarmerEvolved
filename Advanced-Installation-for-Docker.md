@@ -1,7 +1,7 @@
 This guide is aimed to users that wish to run the CapsuleFarmerEvolved on an Android device. Please note that non-Windows users are not officially supported and may not receive support. For any issues that you may encounter, please open an issue on GitHub. If you are able to fix the issue yourself, please open a pull request instead!
 
 ## Prerequisites
-Docker
+- Docker
 
 ## Docker Installation
 
