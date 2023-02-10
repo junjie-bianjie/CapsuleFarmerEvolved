@@ -44,6 +44,9 @@ Most likely you clicked in the window, you should see a little white square if y
 
 If the heartbeat does not update after a minute, try restarting the program. If it still does not update, check the [Troubleshooting](Troubleshooting) page.
 
+### The leagues are red, is that a problem?
+Riot API is overloaded with users. Let the program run, it will recover.
+
 ### I got some weird code in the farmer, what is it?
 A thread in the program crashed and restarted. However as long as the heartbeat is still updating it should be running just fine. If the heartbeat doesn't update, try restarting the program. If the heartbeat doesn't update even after restarting the program, check the [Troubleshooting](Troubleshooting) page.
 
