@@ -17,6 +17,8 @@ Please also note that non-Windows users are not officially supported and may not
 ## Updating
 Enter the directory where you cloned the application initially and run `git pull` to update the application.
 
+If you receive `Exception has occurred: ModuleNotFoundError`, run `pipenv install` to update dependencies.
+
 ## Running as a service
 
 ### Systemd
