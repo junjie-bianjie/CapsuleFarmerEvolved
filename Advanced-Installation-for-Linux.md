@@ -12,7 +12,7 @@ Please also note that non-Windows users are not officially supported and may not
 2. Move to the directory -  `cd CapsuleFarmerEvolved`
 3. Install the Python virtual environment - `pipenv install`
 4. Edit the configuration as the [configuration](https://github.com/LeagueOfPoro/CapsuleFarmerEvolved/wiki/Configuration) page describes
-5. Run the tool with `pipenv run python ./main.py`
+5. Run the tool with `pipenv run python ./src/main.py`
 
 ## Updating
 Enter the directory where you cloned the application initially and run `git pull` to update the application.
