@@ -65,7 +65,7 @@ The following options are available in the configuration file:
 | `debug` | Whether to enable debug mode. Prints more information for troubleshooting in the console and log files. | `false` | No |
 | `connectorDropsUrl` | Discord WebHook URL for drops and notifications | "" | No |
 
-The following options are planned for future releases:
+The following options are planned for future releases (CURRENTLY UNSUPPORTED):
 | Option | Description | Default | Is required? |
 | --- | --- | --- | --- |
 | `bestStreamsUrl` | URL to fetch the bestStreams file. | `""` | No |
