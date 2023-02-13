@@ -14,7 +14,7 @@ Have you entered the correct details? Follow the above Answer for details..
 If even after that you still get this, try deleting your "sessions" folder. If the issue persists, reach out to our Discord community help channels. Link at the bottom of the page.   
 
 ### When do I get drops?
-You get drops from streams that have drops enabled, The drops usually happens on special occasions like when someone gets a penta kill or when elder dragon is slain for example. The drops maytake up to 24 hours to show up in your inventory.
+You get drops randomly from streams that have drops enabled, The drops usually happens on special occasions like when someone gets a penta kill or when elder dragon is slain for example. The drops maytake up to 24 hours to show up in your inventory. Drops are not guarantee for all users. You might get one, but your friend might not for example. That is not something we control. 
 
 ### The client closes as soon as I open it, what's wrong?
 Usually this problem is caused by the configuration of config.yaml in your folder. In the config you should change username to your Riot account name and password to your Riot password. Make sure to leave the quotation marks infront and after your username and password
