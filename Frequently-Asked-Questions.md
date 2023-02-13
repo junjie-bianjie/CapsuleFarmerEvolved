@@ -9,6 +9,10 @@
 The username and password is the same as you use to log in to the League of legends client and on lolesports.com.
 Refer to the [Configuration](Configuration) page for more information on the config file.
 
+### I get "Login failed" or "ERROR"
+Have you entered the correct details? Follow the above Answer for details.. 
+If even after that you still get this, try deleting your "sessions" folder. If the issue persists, reach out to our Discord community help channels. Link at the bottom of the page.   
+
 ### When do I get drops?
 You get drops from streams that have drops enabled, The drops usually happens on special occasions like when someone gets a penta kill or when elder dragon is slain for example. The drops maytake up to 24 hours to show up in your inventory.
 
