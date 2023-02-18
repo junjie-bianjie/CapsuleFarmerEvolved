@@ -23,13 +23,13 @@ If you receive `Exception has occurred: ModuleNotFoundError`, run `pipenv instal
 
 ### Systemd
 1. Create a new service file in `/etc/systemd/system/capsulefarmerevolved.service` with the following contents:
-```
+```ini
 [Unit]
 Description=CapsuleFarmerEvolved
 After=network.target
 
 [Service]
-ExecStart=/usr/bin/python3 /path/to/CapsuleFarmerEvolved/main.py
+ExecStart=/usr/local/bin/pipenv run python3 path/to/CapsuleFarmerEvolved/src/main.py
 WorkingDirectory=/path/to/CapsuleFarmerEvolved
 StandardOutput=syslog
 StandardError=syslog
