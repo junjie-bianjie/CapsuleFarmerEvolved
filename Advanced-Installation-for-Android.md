@@ -29,7 +29,7 @@ If asked, press `y` to confirm the installation.
 
 ## Updating
 
-Enter the directory where you cloned the application initially and run `git pull` to update the application. Then run `pipenv install` to make sure you have all dependencies.
+Enter the directory where you cloned the application initially and run `git pull` to update the application. Then run `pipenv install` to make sure you have all new dependencies.
 
 ## Allow Termux to run in the background
 
