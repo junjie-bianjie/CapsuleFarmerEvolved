@@ -61,6 +61,7 @@ accounts:
 | `imapusername` | The specified username for logging in with IMAP according to the email provider's docs | thisisanexample@gmail.com | "" | Yes
 | `imappassword` | The specified password for logging in with IMAP according to the email provider's docs | Password! | "" | Yes
 | `imapserver` | The specified server to connect to according to the email provider's docs |imap.gmail.com | "" | Yes
+
 Make sure to replace all variable values and to leave none blank, as this leaves potential for error, and the possibility that the farmer is not able to log into your IMAP account.
 
 4. Save the config file and run the program.
