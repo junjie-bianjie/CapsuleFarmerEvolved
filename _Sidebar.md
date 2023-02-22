@@ -4,6 +4,7 @@
 * Getting Started
     * [Quickstart Guide (Windows)](Quickstart-Guide-(Windows))
     * [App Configuration](Configuration)
+        * [IMAP Configuration](IMAP-Configuration)
     * Advanced Installation Guides
         * [Advanced - Windows](Advanced-Installation-for-Windows)
         * [Advanced - Linux](Advanced-Installation-for-Linux)
