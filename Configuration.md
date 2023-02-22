@@ -64,6 +64,7 @@ The following options are available in the configuration file:
 | `accounts.<accountname>.password` | The password of the account. | n/a | Yes |
 | `debug` | Whether to enable debug mode. Prints more information for troubleshooting in the console and log files. | `false` | No |
 | `connectorDropsUrl` | Discord WebHook URL for drops and notifications | "" | No |
+| `showHistoricalDrops` | Shows the total drops per account. | `true` | No |
 
 The following options are planned for future releases (CURRENTLY UNSUPPORTED):
 | Option | Description | Default | Is required? |
