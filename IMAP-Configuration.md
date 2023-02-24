@@ -39,9 +39,9 @@ If you are a more technical user, or just find it easier to add the necessary fi
 
 2. Under each of the accounts you have set up add the following fields: 
 ```yaml
-imapusername: ""
-imappassword: ""
-imapserver: ""
+imapUsername: ""
+imapPassword: ""
+imapServer: ""
 ```
 In total you should have something that resembles the following :
 ```yaml
@@ -49,9 +49,9 @@ accounts:
   accountname:
     username: ""
     password: ""
-    imapusername: ""
-    imappassword: ""
-    imapserver: ""
+    imapUsername: ""
+    imapPassword: ""
+    imapServer: ""
 ```
 
 3. Following the table below, fill out the new fields with their according information.
